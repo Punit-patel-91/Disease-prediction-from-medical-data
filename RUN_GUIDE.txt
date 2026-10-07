@@ -1,0 +1,18 @@
+TASK 4 RUN GUIDE
+
+1. Extract the ZIP.
+2. Open the folder in VS Code.
+3. The dataset is already included:
+   data/breast_cancer_dataset.csv
+4. Terminal -> New Terminal
+5. Run:
+   python -m venv venv
+6. Windows activation:
+   venv\Scripts\activate
+7. Install:
+   pip install -r requirements.txt
+8. Run:
+   python disease_prediction.py
+9. Open outputs/ for metrics, graphs, predictions and saved model.
+
+You do NOT need to download or insert another dataset.
